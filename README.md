@@ -1,10 +1,12 @@
 About:
+
 This Dev Notes server gives special tools to Claude to help it save, list, read, and search for notes. This is particularly useful because it helps give Claude persistent memory across sessions, allowing it to reference and use the information saved in the notes.
 
 
 
 
 Installation Instructions:
+
 Make sure Node.js is installed before following instructions by typing "node -v" or "node --version" in the terminal.
 
 1. Navigate to the project folder
@@ -17,6 +19,7 @@ Make sure Node.js is installed before following instructions by typing "node -v"
 
 
 Usage Examples:
+
 -Example 1: You ask Claude to save a note called meeting-objectives with the following items:
 Check employee progress
 Discuss revenue
@@ -36,6 +39,7 @@ Claude calls the search_notes tool and returns all the note files created that d
 
 
 Limitations:
+
 The search function can only find notes through the date, filepath, or name of the note and needs you to be specific.
 Notes are only saved as .md files
 No delete tool
