@@ -20,19 +20,19 @@ Make sure Node.js is installed before following instructions by typing "node -v"
 
 Usage Examples:
 
--Example 1: You ask Claude to save a note called meeting-objectives with the following items:
+* Example 1: You ask Claude to save a note called meeting-objectives with the following items:
 Check employee progress
 Discuss revenue
 Assign new project tasks
 Claude calls the save_note tool and saves the note for you!
 
--Example 2: You want to confirm that your note was saved, so you ask Claude to list your notes.
+* Example 2: You want to confirm that your note was saved, so you ask Claude to list your notes.
 Claude calls the list_notes tool and lists all the notes for you!
 
--Example 3: You want to go over your note and make sure it has everything you wanted inside, so you ask claude to read it to you.
+* Example 3: You want to go over your note and make sure it has everything you wanted inside, so you ask claude to read it to you.
 Claude calls the read_note tool and reads your specified note!
 
--Example 4: You were working on a project last week and took a couple notes. You want to go through and see a list of the notes you created on Tuesday last week. You give Claude that date and ask it to give you all the notes created on that day.
+* Example 4: You were working on a project last week and took a couple notes. You want to go through and see a list of the notes you created on Tuesday last week. You give Claude that date and ask it to give you all the notes created on that day.
 Claude calls the search_notes tool and returns all the note files created that day!
 
 
@@ -40,7 +40,8 @@ Claude calls the search_notes tool and returns all the note files created that d
 
 Limitations:
 
-The search function can only find notes through the date, filepath, or name of the note and needs you to be specific.
-Notes are only saved as .md files
-No delete tool
-Notes are stored locally only
+* The search function can only find notes through the date, filepath, or name of the note and needs you to be specific.
+* Notes are only saved as .md files
+* No delete tool
+* Notes are stored locally only
+
