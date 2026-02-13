@@ -1,7 +1,7 @@
 What I Built:
 I built a MCP (Model Context Protocol) server that gives Claude Code tools to save, list, read, and search through notes. It uses the stdin (standard input) and stdout (standard output) processes to retrieve and send out notes created by the user and stores them on the user's local machine. These notes are able to be recalled by Claude, helping to give it persistent memory of past sessions.
 
-Design Decisions
+Design Decisions:
 This server was designed to be simple. Notes are simple .md files stored in a single ~/dev-notes/ folder. Because of this, notes can be opened and edited outside of the server and still be recalled by Claude. The notes folder lives outside of the project folder so that the notes aren't attached to any single project and can be accessed easily by Claude.
 
 
@@ -27,4 +27,5 @@ MCP (Model Context Protocol) is a way to connect AI coding agents like Claude Co
 
 
 What I'd do Differently:
+
 Overall, I feel that my approach was effective in giving me what I wanted with minimal prompts. I think the main things I would do differently is make sure that I am even more specific to avoid errors, and double check that I typed filepaths correctly.
