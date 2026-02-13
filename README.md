@@ -40,8 +40,9 @@ Claude calls the search_notes tool and returns all the note files created that d
 
 Limitations:
 
-* The search function can only find notes through the date, filepath, or name of the note and needs you to be specific.
+* The search function can only find notes through the date, filepath, or name of the note and needs you to be specific
 * Notes are only saved as .md files
 * No delete tool
 * Notes are stored locally only
+
 
